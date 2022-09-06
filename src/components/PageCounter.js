@@ -1,4 +1,5 @@
 import React from 'react'
+import supabase from '../utils/supabase'
 
 const PageViewCounter = ({url}) => {
   const numberOfViews = 0
