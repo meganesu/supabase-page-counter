@@ -50,7 +50,7 @@ const PageViewCounter = ({url}) => {
   }, [url])
 
 
-  return (
+  return numberOfViews && (
     <p>This page has been viewed {numberOfViews} times.</p>
   )
 }
