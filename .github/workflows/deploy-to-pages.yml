@@ -4,6 +4,10 @@
 #
 name: Deploy Gatsby site to Pages
 
+env:
+  GATSBY_SUPABASE_URL: ${{secrets.GATSBY_SUPABASE_UR}}
+  GATSBY_SUPABASE_ANON_KEY: ${{secrets.GATSBY_SUPABASE_ANON_KEY}}
+
 on:
   # Runs on pushes targeting the default branch
   push:
